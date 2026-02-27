@@ -1,0 +1,21 @@
+REPORTE AUTOMÁTICO DATASET IRIS
+========================================
+
+Número de muestras por especie:
+species
+setosa        50
+versicolor    50
+virginica     50
+Name: count, dtype: int64
+
+Promedios por especie:
+            sepal length (cm)  sepal width (cm)  petal length (cm)  petal width (cm)
+species                                                                             
+setosa                  5.006             3.428              1.462             0.246
+versicolor              5.936             2.770              4.260             1.326
+virginica               6.588             2.974              5.552             2.026
+
+Conclusiones:
+- El dataset contiene 3 especies diferentes.
+- Cada especie tiene 50 muestras.
+- Las especies presentan diferencias notables en el tamaño de los pétalos.
