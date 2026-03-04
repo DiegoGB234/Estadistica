@@ -8,7 +8,7 @@ data = [5, 7, 9, 6, 10]
 # Calcular la varianza
 #sacando la media
 media= sum(data) / len(data)
-print(media)
+print(f"\n La media es de :{media}")
 #restamos la media con todlos loes elementos y aplicamos ² 
 resul=[]
 for res in data:

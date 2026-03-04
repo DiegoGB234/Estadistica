@@ -131,13 +131,18 @@ print("\n----------------------------------------")
 
 #Parte 3
 # Extraer las reglas  del dataset en automatico
+print("\n Extrer reglas")
 print(extraer_reglas(df_weather))
 print("\n----------------------------------------")
-#generar el arbol
+#generar el arbol}
+print("\n Generar Arbol")
 fila = df_weather.iloc[2]
+print("\n Datos de entrada: ")
+print(fila)
 resultado = generar_arbol_decisiones(fila)
 print(resultado)
 print("\n----------------------------------------")
 #Permita predecir "play" para nuevas condiciones
 # usando con un dia nuevo
+print("\n Predecir ")
 predecir_play('rainy', 'hot', 'normal', True)
